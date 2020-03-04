@@ -48,7 +48,7 @@ First, we'll need to import some of the standard library. An open file is repres
 2. ```ofstream```: A stream to write to files
 3. ```fstream```: A stream to both read in and write to files
 
-Files can be manipulated using streams the same way we use ```cin``` and ```cout```. The only difference is we have to open and close the file, so our changes are applied to it. To open a basic file, we'd do the following:
+Files can be manipulated using streams the same way we use ```cin``` and ```cout```. The only difference is we have to open and close the file, so our changes are applied to it. To open a basic file and write something to it, we'd do the following:
 
 ```
 #include <iostream>
